@@ -23,6 +23,7 @@ html,body{
     align-items: center;
     justify-content: space-around;
     .logo-dollar{
+        flex-shrink: 0;
         background-color: rgb(238, 97, 168);
         width: 65px;
         height: 65px;
@@ -44,6 +45,8 @@ html,body{
         }
     }
     .texts{
+        flex-grow: 1;
+        margin: 0 20px;
         h3{
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             color: rgb(58, 58, 58);
@@ -55,6 +58,7 @@ html,body{
         }
     }
     .arrow-right{
+        flex-shrink: 0;
         i{
             color: #999;
             font-weight: 700;
