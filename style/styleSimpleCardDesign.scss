@@ -1,0 +1,69 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card{
+    width: 400px;
+    height: 125px;
+    border-radius: 3px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0, .2);
+
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .logo-dollar{
+        background-color: rgb(238, 97, 168);
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        i{
+            box-sizing:content-box;
+            z-index: 1;
+            color: #fff;
+            font-size: 25px;
+            width: 1em;
+            height: 1em;
+            text-align: center;
+            border: 3px solid #fff;
+            border-radius: 50%;
+            padding: 5px;
+        }
+    }
+    .texts{
+        h3{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: rgb(58, 58, 58);
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+        h4{
+            color: #ddd;
+        }
+    }
+    .arrow-right{
+        i{
+            color: #999;
+            font-weight: 700;
+            font-size: 30px;
+            color: #ddd;
+            cursor: pointer;
+            &:hover{
+                color: #000;
+            }
+        }
+    }
+}
